@@ -1,0 +1,30 @@
+nav{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    .logo{
+        margin-left: 70px;
+    }
+    .container-fluid{
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex!important;
+        flex-basis: auto;
+        margin-left: 40vw;
+        overflow-x: hidden;
+    }
+
+.navbar-nav{
+    .nav-link{
+        text-decoration: none;
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 1.5em !important;
+        padding-right: 1.5em;
+    }
+    .active{
+        color: #D35458;
+    }
+}
+}
