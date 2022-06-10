@@ -367,10 +367,17 @@ footer {
     flex-wrap: inherit;
     align-items: center;
     justify-content: flex-end;
-    display: flex !important;
-    flex-basis: auto;
-    margin-left: 36vw;
-    overflow-x: hidden; }
+    margin-top: -9vh !important; }
+  nav button .navbar-toggler {
+    margin-left: 70%; }
+  nav .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 0.5em; }
+  nav .navbar-nav .active {
+    color: #D35458; }
   header {
     height: 700px; }
     header .carousel .texto {
@@ -435,7 +442,7 @@ footer {
       height: 40px;
       background-image: url(../assets/icons/wsp.svg);
       position: fixed;
-      left: 90%;
+      left: 85%;
       background-size: contain;
       background-repeat: no-repeat;
       top: 80%;
