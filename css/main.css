@@ -29,11 +29,8 @@ header {
     padding-top: 150px;
     height: 1024px; }
     header .carousel .texto h1 {
-      font-size: 150px;
-      font-weight: 100; }
-    header .carousel .texto h2 {
-      font-size: 100px;
-      font-weight: 100; }
+      font-size: 96px;
+      font-weight: 400; }
     header .carousel .texto h5 {
       font-size: 24px;
       font-weight: 400;
@@ -99,9 +96,11 @@ header {
     height: 50%; }
 
 main section.first {
-  padding-top: 300px; }
-  main section.first hr {
-    width: 1160px;
+  padding-top: 10em;
+  display: grid;
+  justify-items: center; }
+  main section.first span.linea {
+    width: 80%;
     border: 2px solid #D35458;
     height: 0;
     text-align: center; }
@@ -127,20 +126,26 @@ main section.first {
       font-size: 32px;
       line-height: 32px;
       text-align: center;
-      width: 338px; }
+      width: 338px;
+      padding-top: 40px;
+      padding-bottom: 195px; }
     main section.first .contenedor .trans h5 {
       color: #D35458;
       font-weight: 400;
       font-size: 32px;
       line-height: 32px;
       text-align: center;
-      width: 338px; }
+      width: 338px;
+      padding-top: 40px;
+      padding-bottom: 195px; }
     main section.first .contenedor .mercado h5 {
       color: #6368AE;
       font-weight: 400;
       font-size: 32px;
       line-height: 32px;
-      text-align: center; }
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 195px; }
 
 main section.second {
   padding-top: 250px; }
@@ -148,7 +153,8 @@ main section.second {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    color: #D35458; }
+    color: #D35458;
+    margin-bottom: 50px; }
   main section.second .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -156,44 +162,58 @@ main section.second {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
-    justify-items: center;
-    text-align: center; }
+    justify-items: start; }
+    main section.second .contenedor .caja {
+      height: 350px;
+      width: 100%;
+      justify-content: center;
+      justify-items: center;
+      display: grid;
+      margin-bottom: 70px; }
     main section.second .contenedor .deco {
       background-image: url(../assets/media/tejo.jpg);
-      width: 100%;
+      width: 418.68px;
       height: 349px;
       background-size: contain;
-      background-repeat: no-repeat; }
-      main section.second .contenedor .deco p {
-        color: #F5A856;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 36px;
-        margin-top: 45px; }
+      background-repeat: no-repeat;
+      position: absolute; }
     main section.second .contenedor .pared {
       background-image: url(../assets/media/murete.jpg);
-      width: 100%;
+      width: 418.68px;
       height: 349px;
       background-size: contain;
-      background-repeat: no-repeat; }
-      main section.second .contenedor .pared p {
-        color: #EF8183;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 36px;
-        margin-top: 45px; }
+      background-repeat: no-repeat;
+      position: absolute; }
     main section.second .contenedor .piso {
       background-image: url(../assets/media/porfido.jpg);
-      width: 100%;
+      width: 418.68px;
       height: 349px;
       background-size: contain;
-      background-repeat: no-repeat; }
-      main section.second .contenedor .piso p {
-        color: #9099CD;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 36px;
-        margin-top: 45px; }
+      background-repeat: no-repeat;
+      position: absolute; }
+    main section.second .contenedor p {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 36px;
+      margin-top: 400px; }
+    main section.second .contenedor .dec {
+      color: #F5A856; }
+    main section.second .contenedor .par {
+      color: #EF8183; }
+    main section.second .contenedor .pi {
+      color: #9099CD; }
+    main section.second .contenedor .mini {
+      background-color: rgba(255, 255, 255, 0.397);
+      width: 290px;
+      height: 42px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 22px;
+      text-align: center;
+      margin-top: 13em;
+      margin-left: 10vw; }
+      main section.second .contenedor .mini span {
+        margin-top: 0.5em; }
 
 main section.third {
   background-color: #EDA9A7;
@@ -205,11 +225,14 @@ main section.third {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
-    justify-items: center;
-    text-align: center;
-    padding: 100px 7em; }
+    justify-items: start;
+    text-align: start;
+    padding: 100px 10em; }
     main section.third .contenedor div {
       display: inline-flex; }
+      main section.third .contenedor div img {
+        width: 30px;
+        height: auto; }
       main section.third .contenedor div p {
         margin-left: 1em;
         margin-top: 1em;
@@ -274,8 +297,15 @@ main section.fifth {
       width: 100%; }
     main section.fifth .glider img {
       height: 275px;
-      width: 100%;
-      padding-left: 5px; }
+      width: 100%; }
+  main section.fifth .flecha {
+    max-width: 50px;
+    height: auto;
+    position: absolute;
+    padding-top: 7em;
+    margin-left: 10vw;
+    padding-right: 0;
+    z-index: 3; }
 
 main section.sixth {
   padding-top: 10em;
@@ -442,7 +472,7 @@ footer {
       height: 40px;
       background-image: url(../assets/icons/wsp.svg);
       position: fixed;
-      left: 85%;
+      left: 80%;
       background-size: contain;
       background-repeat: no-repeat;
       top: 80%;
@@ -503,55 +533,69 @@ footer {
       font-size: 40px;
       font-weight: 500;
       color: #D35458;
-      padding-bottom: 2em; }
+      margin-bottom: 50px; }
     main section.second .contenedor {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
-      grid-row-gap: 20px;
+      grid-row-gap: 0px;
       justify-content: center;
-      justify-items: center;
-      text-align: center; }
+      justify-items: start; }
+      main section.second .contenedor .caja {
+        height: 350px;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        margin-bottom: 70px; }
       main section.second .contenedor .deco {
         background-image: url(../assets/media/tejo.jpg);
-        width: 26em;
+        width: 418.68px;
         height: 349px;
         background-size: contain;
         background-repeat: no-repeat;
-        padding-top: 1em; }
-        main section.second .contenedor .deco p {
-          color: #F5A856;
-          font-weight: 500;
-          font-size: 25px;
-          line-height: 36px;
-          margin-top: 5px; }
+        position: absolute;
+        margin-top: 80px; }
       main section.second .contenedor .pared {
         background-image: url(../assets/media/murete.jpg);
-        width: 26em;
+        width: 418.68px;
         height: 349px;
         background-size: contain;
         background-repeat: no-repeat;
-        padding-top: 1em; }
-        main section.second .contenedor .pared p {
-          color: #EF8183;
-          font-weight: 500;
-          font-size: 25px;
-          line-height: 36px;
-          margin-top: 5px; }
+        position: absolute;
+        margin-top: 80px; }
       main section.second .contenedor .piso {
         background-image: url(../assets/media/porfido.jpg);
-        width: 26em;
+        width: 418.68px;
         height: 349px;
         background-size: contain;
         background-repeat: no-repeat;
-        padding-top: 1em; }
-        main section.second .contenedor .piso p {
-          color: #9099CD;
-          font-weight: 500;
-          font-size: 25px;
-          line-height: 36px;
-          margin-top: 5px; }
+        position: absolute;
+        margin-top: 80px; }
+      main section.second .contenedor p {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 450px; }
+      main section.second .contenedor .dec {
+        color: #F5A856; }
+      main section.second .contenedor .par {
+        color: #EF8183; }
+      main section.second .contenedor .pi {
+        color: #9099CD; }
+      main section.second .contenedor .mini {
+        background-color: rgba(255, 255, 255, 0.397);
+        width: 290px;
+        height: 42px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 13em;
+        margin-left: 35%; }
+        main section.second .contenedor .mini span {
+          margin-top: 0.5em; }
   main section.third {
     background-color: #EDA9A7;
     margin-top: 100px; }
