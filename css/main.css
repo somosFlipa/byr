@@ -606,7 +606,7 @@ footer {
       grid-column-gap: 0px;
       grid-row-gap: 0px;
       justify-content: center;
-      justify-items: center;
+      justify-items: start;
       text-align: center;
       padding: 100px 2em; }
       main section.third .contenedor div {
@@ -733,6 +733,343 @@ footer {
         flex-direction: column;
         align-items: flex-end;
         margin-top: 3em; }
+        footer .contenedor ul.redes li {
+          margin-top: 20px;
+          color: #fff;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          list-style-type: none; }
+          footer .contenedor ul.redes li a {
+            margin-right: 2em;
+            text-decoration: none;
+            color: #fff; }
+    footer .desarrollo {
+      text-align: center;
+      color: #fff;
+      background-color: #D35458;
+      height: 60px;
+      width: 100%; }
+      footer .desarrollo p {
+        padding-top: 1.5em; }
+      footer .desarrollo a {
+        text-decoration: none;
+        color: #fff; } }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  nav .container-fluid {
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 22vw;
+    overflow-x: hidden; }
+  nav .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 1.5em !important;
+    padding-right: 1.5em; }
+  nav .navbar-nav .active {
+    color: #D35458; }
+  nav button {
+    margin-left: 80%;
+    margin-top: 10px; }
+  nav .container-fluid {
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -9vh !important; }
+  nav button .navbar-toggler {
+    margin-left: 70%; }
+  nav .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 0.5em; }
+  nav .navbar-nav .active {
+    color: #D35458; }
+  header .boton {
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/icons/wsp.svg);
+    position: fixed;
+    left: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 90%;
+    z-index: 10; }
+  main section.second {
+    padding-top: 2em; }
+    main section.second h2 {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 500;
+      color: #D35458;
+      margin-bottom: 50px; }
+    main section.second .contenedor {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      justify-content: center;
+      justify-items: start; }
+      main section.second .contenedor p {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 370px; }
+  main section.sixth {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center; }
+    main section.sixth span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      color: #EF8183;
+      padding-bottom: 1em; }
+      main section.sixth span img {
+        width: 30px;
+        height: auto;
+        margin-right: 5px; }
+    main section.sixth iframe {
+      align-self: center;
+      width: 80%;
+      height: 300px; }
+  footer {
+    overflow-x: hidden; }
+    footer .contenedor {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 2fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      padding-top: 30px;
+      margin-bottom: 10px; }
+      footer .contenedor ul.datos {
+        margin-left: 2em;
+        width: 100%; }
+        footer .contenedor ul.datos li {
+          margin-top: 12px;
+          color: #fff;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px; }
+          footer .contenedor ul.datos li p {
+            margin-left: 5px; }
+      footer .contenedor ul.redes {
+        margin-left: 2em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 1em;
+        padding-right: 1em; }
+        footer .contenedor ul.redes li {
+          margin-top: 20px;
+          color: #fff;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          list-style-type: none; }
+          footer .contenedor ul.redes li a {
+            margin-right: 2em;
+            text-decoration: none;
+            color: #fff; }
+    footer .desarrollo {
+      text-align: center;
+      color: #fff;
+      background-color: #D35458;
+      height: 60px;
+      width: 100%; }
+      footer .desarrollo p {
+        padding-top: 1.5em; }
+      footer .desarrollo a {
+        text-decoration: none;
+        color: #fff; } }
+
+@media (min-width: 992px) and (max-width: 1250px) {
+  nav .container-fluid {
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 22vw;
+    overflow-x: hidden; }
+  nav .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 1.5em !important;
+    padding-right: 1.5em; }
+  nav .navbar-nav .active {
+    color: #D35458; }
+  nav button {
+    margin-left: 80%;
+    margin-top: 10px; }
+  nav .container-fluid {
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0vh !important; }
+  nav button .navbar-toggler {
+    margin-left: 70%; }
+  nav .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 0.5em; }
+  nav .navbar-nav .active {
+    color: #D35458; }
+  header .boton {
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/icons/wsp.svg);
+    position: fixed;
+    left: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 90%;
+    z-index: 10; }
+  main section.second {
+    padding-top: 2em; }
+    main section.second h2 {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 500;
+      color: #D35458;
+      margin-bottom: 50px; }
+    main section.second .contenedor {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      justify-content: center;
+      justify-items: start; }
+      main section.second .contenedor .caja {
+        height: 350px;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        margin-bottom: 70px; }
+      main section.second .contenedor .deco {
+        background-image: url(../assets/media/tejo.jpg);
+        width: 418.68px;
+        height: 349px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 80px; }
+      main section.second .contenedor .pared {
+        background-image: url(../assets/media/murete.jpg);
+        width: 418.68px;
+        height: 349px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 80px; }
+      main section.second .contenedor .piso {
+        background-image: url(../assets/media/porfido.jpg);
+        width: 418.68px;
+        height: 349px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 80px; }
+      main section.second .contenedor p {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 450px; }
+      main section.second .contenedor .dec {
+        color: #F5A856; }
+      main section.second .contenedor .par {
+        color: #EF8183; }
+      main section.second .contenedor .pi {
+        color: #9099CD; }
+      main section.second .contenedor .mini {
+        background-color: rgba(255, 255, 255, 0.397);
+        width: 290px;
+        height: 42px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 13em;
+        margin-left: 35%; }
+        main section.second .contenedor .mini span {
+          margin-top: 0.5em; }
+  main section.sixth {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center; }
+    main section.sixth span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      color: #EF8183;
+      padding-bottom: 1em; }
+      main section.sixth span img {
+        width: 30px;
+        height: auto;
+        margin-right: 5px; }
+    main section.sixth iframe {
+      align-self: center;
+      width: 80%;
+      height: 300px; }
+  footer {
+    background: #EDA9A7;
+    margin-top: 85px;
+    height: 100%;
+    overflow-x: hidden; }
+    footer .contenedor {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 2fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      padding-top: 30px;
+      margin-bottom: 10px; }
+      footer .contenedor ul.datos {
+        margin-left: 2em;
+        width: 100%; }
+        footer .contenedor ul.datos li {
+          margin-top: 12px;
+          color: #fff;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px; }
+          footer .contenedor ul.datos li p {
+            margin-left: 5px; }
+        footer .contenedor ul.datos .location {
+          list-style-image: url(../assets/icons/locat.svg); }
+        footer .contenedor ul.datos .phone {
+          list-style-image: url(../assets/icons/telefono.svg); }
+        footer .contenedor ul.datos .email {
+          list-style-image: url(../assets/icons/mail.svg); }
+      footer .contenedor ul.redes {
+        margin-left: 2em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 1em; }
         footer .contenedor ul.redes li {
           margin-top: 20px;
           color: #fff;
