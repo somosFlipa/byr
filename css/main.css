@@ -130,7 +130,7 @@ main section.first {
       padding-top: 40px;
       padding-bottom: 195px; }
     main section.first .contenedor .trans h5 {
-      color: #D35458;
+      color: #A869A8;
       font-weight: 400;
       font-size: 32px;
       line-height: 32px;
@@ -144,8 +144,13 @@ main section.first {
       font-size: 32px;
       line-height: 32px;
       text-align: center;
-      padding-top: 40px;
+      padding-top: 60px;
       padding-bottom: 195px; }
+    main section.first .contenedor .mercado svg {
+      margin-top: 10px; }
+    main section.first .contenedor svg {
+      width: 100px;
+      height: auto; }
 
 main section.second {
   padding-top: 250px; }
@@ -170,13 +175,40 @@ main section.second {
       justify-items: center;
       display: grid;
       margin-bottom: 70px; }
+      main section.second .contenedor .caja .textos {
+        position: absolute;
+        z-index: 2;
+        width: 418.68px;
+        height: 349px;
+        position: absolute;
+        display: none; }
+        main section.second .contenedor .caja .textos h6 {
+          font-size: 24px;
+          font-weight: 500;
+          margin-top: 50px;
+          margin-left: 30px; }
+        main section.second .contenedor .caja .textos p {
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 0;
+          margin-left: 30px;
+          width: 280px; }
+      main section.second .contenedor .caja .decoracion {
+        background-color: #f5a856af; }
+      main section.second .contenedor .caja .pareds {
+        background-color: #ef81839c; }
+      main section.second .contenedor .caja .pisos {
+        background-color: #9099cda1; }
+    main section.second .contenedor .caja:hover .textos {
+      display: block; }
     main section.second .contenedor .deco {
       background-image: url(../assets/media/tejo.jpg);
       width: 418.68px;
       height: 349px;
       background-size: contain;
       background-repeat: no-repeat;
-      position: absolute; }
+      position: absolute;
+      z-index: 1; }
     main section.second .contenedor .pared {
       background-image: url(../assets/media/murete.jpg);
       width: 418.68px;
