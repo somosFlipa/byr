@@ -1,12 +1,59 @@
 main{
+    // who
+    section.who{
+        padding-top: 4em;
+
+        .fondo{
+            background-image: url(../assets/icons/fondo-who.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            display: grid;
+            justify-content: center;
+            opacity: 25%;
+            margin-top: 4em;
+            z-index: 0;
+        }
+        .texto{
+            width: 560px;
+            height: max-content;
+            display: grid;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 10;
+
+            p{
+                font-size: 32px;
+                font-weight: 400;
+                margin-top: -9em;
+                text-align: center;
+                background-color: #fff0;
+                position: absolute;
+                display: inline;
+                justify-self: center;
+                width: 560px;
+                span{
+                    display: inline;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    // first
     section.first{
-        padding-top: 300px;
-        hr{
-            width: 1160px;
+        padding-top: 8em;
+        display: grid;
+        justify-items: center;
+        span.linea{
+            width: 80%;
             border: 2px solid #D35458;
             height: 0;
             text-align: center;
-
+            
         }
         h5{
             text-align: center;
@@ -32,6 +79,8 @@ main{
                 line-height: 32px;
                 text-align: center;
                 width: 338px;
+                padding-top: 40px;
+                padding-bottom: 195px;
             }
             .trans h5{
                 color: #A869A8;
@@ -40,6 +89,8 @@ main{
                 line-height: 32px;
                 text-align: center;
                 width: 338px;
+                padding-top: 40px;
+                padding-bottom: 195px;
             }
             .mercado h5{
                 color: #6368AE;
@@ -47,16 +98,32 @@ main{
                 font-size: 32px;
                 line-height: 32px;
                 text-align: center;
+                padding-top: 60px;
+                padding-bottom: 195px;
+
+            }
+            .mercado{
+                svg{
+                    margin-top: 10px;
+                }
+            }
+            svg{
+                width: 100px;
+                height: auto;
             }
         }
     }
+    // second
     section.second{
+        display: grid;
+        text-align: -webkit-center;
         padding-top: 250px;
         h2{
             text-align: center;
             font-size: 40px;
             font-weight: 500;
             color: #D35458;
+            margin-bottom: 50px;
         }
         .contenedor{
             display: grid;
@@ -65,95 +132,152 @@ main{
             grid-column-gap: 0px;
             grid-row-gap: 0px;
             justify-content: center;
-            justify-items: center;
-            text-align: center;
-            .deco{
-                background-image: url(../assets/media/tejo.jpg);
+            justify-items: start;
+            margin-left: 100px;
+            margin-right: 100px;
+            .caja{
+                height: 350px;
                 width: 100%;
+                justify-content: center;
+                justify-items: center;
+                display: grid;
+                margin-bottom: 70px;
+                text-align: start;
+                .textos{
+                    position: absolute;
+                    z-index: 2;
+                    width: 338px;
+                    height: 349px;
+                    position: absolute;
+                    display: none;
+                    h6{
+                        font-size: 28px;
+                        font-weight: 500;
+                        margin-top: 50px;
+                        margin-left: 30px;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin-top: 25px;
+                        margin-left: 30px;
+                        width: 280px;
+                        color: #000;
+                        line-height: 1.3;
+                    }
+                }
+                .decoracion{
+                    background-color: #f5a856af;
+                }
+                .pareds{
+                    background-color:#ef81839c;
+                }
+                .pisos{
+                    background-color: #9099cda1;
+                }
+            }
+            .caja:hover .textos{
+                display: block;
+            }
+            .deco{
+                
+                width: 338px;
                 height: 349px;
                 background-size: contain;
                 background-repeat: no-repeat;
-
-                p{
-                    color: #F5A856;
-                    font-weight: 500;
-                    font-size: 36px;
-                    line-height: 36px;
-                    margin-top: 45px;
-                }
+                position: absolute;
+                z-index: 1;
+                
             }
             .pared{
-                background-image: url(../assets/media/murete.jpg);
-                width: 100%;
+                
+                width: 338px;
                 height: 349px;
                 background-size: contain;
                 background-repeat: no-repeat;
-
-                p{
-                    color: #EF8183;
-                    font-weight: 500;
-                    font-size: 36px;
-                    line-height: 36px;
-                    margin-top: 45px;
-                }
+                position: absolute;
+                
             }
             .piso{
-                background-image: url(../assets/media/porfido.jpg);
-                width: 100%;
+                
+                width: 338px;
                 height: 349px;
                 background-size: contain;
                 background-repeat: no-repeat;
+                position: absolute;
+                
 
-                p{
-                    color: #9099CD;
-                    font-weight: 500;
-                    font-size: 36px;
-                    line-height: 36px;
-                    margin-top: 45px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 36px;
+                margin-top: 400px;
+
+            }
+            .dec{
+                color: #F5A856;
+            }
+            .par{
+                color: #EF8183;
+            }
+            .pi{
+             color: #9099CD;   
+            }
+
+            .mini{
+                background-color: rgba(255, 255, 255, 0.397);
+                width: 290px;
+                height: 40px;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 22px;
+                text-align: center;
+                margin-top: -1.5em;
+                margin-left: 4vw;
+                position: absolute;
+                span{
+                    margin-top: 0.5em;
                 }
             }
-            // .mini{
-            //     background-color: rgba(255, 255, 255, 0.397);
-            //     width: 290px;
-            //     height: 42px;
-            //     font-weight: 500;
-            //     font-size: 24px;
-            //     line-height: 22px;
-            //     text-align: center;
-            //     margin-top: 13em;
-            //     margin-left: 10vw;
-            //     span{
-            //         margin-top: 0.5em;
-            //     }
-            // }
 
         }
     }
+    // third
     section.third{
-        background-color: #EDA9A7;
         margin-top: 100px;
         .contenedor{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 2fr;
-            grid-column-gap: 0px;
+            grid-column-gap: 8px;
             grid-row-gap: 0px;
             justify-content: center;
-            justify-items: center;
-            text-align: center;
-            padding: 100px 7em;
-            div{
-                display: inline-flex;
+            justify-items: start;
+            text-align: start;
+            padding: 100px 10em;
+            .caja{
+                width: 304px;
+                height: 283px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+                display: grid;
+                justify-content: center;
+                svg{
+                    justify-self: center;
+                    margin-top: 35px;
+                }
                 p{
-                    margin-left: 1em;
-                    margin-top: 1em;
+                    font-style: normal;
                     font-weight: 300;
                     font-size: 32px;
                     line-height: 32px;
+                    text-align: center;
                 }
             }
         }
     }
+    // fourth
     section.fourth{
         padding-top: 85px;
         display: grid;
@@ -210,6 +334,7 @@ main{
         }
     }
 }
+// fifth
     section.fifth{
         margin-top: 180px;
         .glider{
@@ -222,10 +347,21 @@ main{
             img{
                 height: 275px;
                 width: 100%;
-                padding-left: 5px;
+                // padding-left: 5px;
             }
+
+        }
+        .flecha{
+            max-width: 50px;
+            height: auto;
+            position: absolute;
+            padding-top: 7em;
+            margin-left: 10vw;
+            padding-right: 0;
+            z-index: 3;
         }
     }
+    // sixth
     section.sixth{
         padding-top: 10em;
         display: flex;
@@ -238,16 +374,21 @@ main{
             font-size: 40px;
             line-height: 40px;
             color: #EF8183;
-            img{
-                width: 61.5px;
-                height: auto;
-                margin-right: 32px;
+
+        }            
+        img{
+            width: 50px;
+            display: grid;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
             }
-        }
         iframe{
             align-self: center;
             width: 1084px;
             height: 708px;
+            margin-top: 65px;
         }
     }
 }
