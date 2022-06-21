@@ -845,12 +845,21 @@ footer .desarrollo a {
   }
   main section.second .contenedor .dec {
     color: #f5a856;
+    display: grid;
+    justify-content: center;
+    margin-left: 0;
   }
   main section.second .contenedor .par {
     color: #ef8183;
+    display: grid;
+    justify-content: center;
+    margin-left: 0;
   }
   main section.second .contenedor .pi {
     color: #9099cd;
+    display: grid;
+    justify-content: center;
+    margin-left: 0;
   }
   main section.second .contenedor .mini {
     background-color: rgba(255, 255, 255, 0.397);
