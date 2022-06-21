@@ -499,12 +499,13 @@ footer .contenedor {
   grid-template-rows: 2fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding-top: 85px;
-  margin-bottom: 40px;
+  padding-top: 50px;
+  margin-bottom: -10px;
 }
 footer .contenedor ul.datos {
-  margin-left: 12em;
+  margin-left: 100px;
   width: 100%;
+  list-style-position: inside;
 }
 footer .contenedor ul.datos li {
   margin-top: 12px;
@@ -514,10 +515,15 @@ footer .contenedor ul.datos li {
   line-height: 24px;
 }
 footer .contenedor ul.datos li p {
-  margin-left: 20px;
+  margin-left: 2em;
+  margin-top: -1.2em;
+  margin-bottom: 3rem;
 }
 footer .contenedor ul.datos .location {
   list-style-image: url(../assets/icons/locat.png);
+}
+footer .contenedor ul.datos .location::marker {
+  margin-top: 5px;
 }
 footer .contenedor ul.datos .phone {
   list-style-image: url(../assets/icons/phone.png);
@@ -526,13 +532,9 @@ footer .contenedor ul.datos .email {
   list-style-image: url(../assets/icons/mail.png);
 }
 footer .contenedor ul.redes {
-  margin-left: 12em;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 2em;
-  margin-left: 50%;
+  list-style-position: inside;
+  margin-left: 19em;
+  margin-top: 5.5em;
 }
 footer .contenedor ul.redes li {
   margin-top: 20px;
@@ -540,6 +542,11 @@ footer .contenedor ul.redes li {
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
+}
+footer .contenedor ul.redes li p {
+  margin-bottom: 1rem;
+  margin-top: -1.2em;
+  margin-left: 1em;
 }
 footer .contenedor ul.redes li a {
   margin-right: 20px;
@@ -751,6 +758,7 @@ footer .desarrollo a {
     line-height: 32px;
     text-align: center;
     width: 200px;
+    padding-bottom: 50px;
   }
   main section.first .contenedor .trans h5 {
     color: #d35458;
@@ -759,6 +767,7 @@ footer .desarrollo a {
     line-height: 32px;
     text-align: center;
     width: 200px;
+    padding-bottom: 50px;
   }
   main section.first .contenedor .mercado h5 {
     color: #6368ae;
@@ -766,6 +775,8 @@ footer .desarrollo a {
     font-size: 25px;
     line-height: 32px;
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
   }
   main section.second {
     padding-top: 2em;
@@ -824,9 +835,9 @@ footer .desarrollo a {
     margin-top: 80px;
   }
   main section.second .contenedor p {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 15em;
     margin-left: 30px;
     width: 280px;
     color: #000;
@@ -865,9 +876,9 @@ footer .desarrollo a {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 2fr;
     grid-column-gap: 0px;
-    grid-row-gap: 8px;
+    grid-row-gap: 20px;
     justify-content: center;
-    justify-items: start;
+    justify-items: center;
     text-align: center;
     padding: 100px 2em;
   }
@@ -972,8 +983,8 @@ footer .desarrollo a {
   }
   main section.sixth iframe {
     align-self: center;
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 350px;
   }
   footer {
     background: #eda9a7;
@@ -991,7 +1002,7 @@ footer .desarrollo a {
     margin-bottom: 10px;
   }
   footer .contenedor ul.datos {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
   }
   footer .contenedor ul.datos li {
@@ -1001,15 +1012,18 @@ footer .desarrollo a {
     font-size: 18px;
   }
   footer .contenedor ul.datos li p {
-    margin-left: 5px;
+    margin-left: 3em;
+    margin-top: -1.8em;
+    margin-bottom: 2em;
+    padding-right: 14em;
   }
   footer .contenedor ul.redes {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 3em;
+    margin-top: 1em;
   }
   footer .contenedor ul.redes li {
     margin-top: 20px;
@@ -1019,6 +1033,12 @@ footer .desarrollo a {
     line-height: 24px;
     list-style-type: none;
   }
+  footer .contenedor ul.redes li p {
+    margin-bottom: 1rem;
+    margin-top: -1.5em;
+    margin-left: 3em;
+  }
+
   footer .contenedor ul.redes li a {
     margin-right: 2em;
     text-decoration: none;
