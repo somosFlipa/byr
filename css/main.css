@@ -380,8 +380,18 @@ main section.third .contenedor .caja p {
   font-size: 32px;
   line-height: 32px;
   text-align: center;
+  width: 71%;
+  justify-self: center;
 }
-
+main section.third .contenedor .caja p.this {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 100%;
+  justify-self: center;
+}
 main section.fourth {
   padding-top: 85px;
   display: grid;
