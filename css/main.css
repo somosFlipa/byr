@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "proxima-nova";
+  src: url(../assets/Proxima\ Nova\ Font.otf);
+}
 nav {
   background-color: rgba(255, 255, 255, 0);
   display: flex;
@@ -118,6 +122,7 @@ header .carousel-control-next {
 
 main section.who {
   padding-top: 4em;
+  font-family: "proxima-nova";
 }
 main section.who .fondo {
   background-image: url(../assets/icons/fondo-who.png);
@@ -263,6 +268,7 @@ main section.second .contenedor .caja .textos {
   height: 349px;
   position: absolute;
   display: none;
+  font-family: "proxima-nova";
 }
 main section.second .contenedor .caja .textos h6 {
   font-size: 28px;
