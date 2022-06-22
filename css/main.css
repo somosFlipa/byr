@@ -341,7 +341,7 @@ main section.second .contenedor .mini {
   position: absolute;
 }
 main section.second .contenedor .mini span {
-  margin-top: 0.3em;
+  margin-top: 0.35em;
   display: flex;
   justify-content: center;
 }
@@ -491,7 +491,7 @@ main section.sixth iframe {
 footer {
   background: #eda9a7;
   margin-top: 85px;
-  height: 305px;
+  height: 25em;
 }
 footer .contenedor {
   display: grid;
@@ -534,7 +534,7 @@ footer .contenedor ul.datos .email {
 footer .contenedor ul.redes {
   list-style-position: inside;
   margin-left: 19em;
-  margin-top: 5.5em;
+  margin-top: 11em;
 }
 footer .contenedor ul.redes li {
   margin-top: 20px;
@@ -813,25 +813,16 @@ footer .desarrollo a {
   main section.second .contenedor .deco {
     width: 338px;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor .pared {
     width: 338px;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor .piso {
     width: 338px;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor p {
@@ -1011,7 +1002,7 @@ footer .desarrollo a {
     margin-bottom: 10px;
   }
   footer .contenedor ul.datos {
-    margin-left: 1em;
+    margin-left: 0;
     width: 100%;
   }
   footer .contenedor ul.datos li {
@@ -1021,13 +1012,13 @@ footer .desarrollo a {
     font-size: 18px;
   }
   footer .contenedor ul.datos li p {
-    margin-left: 3em;
+    margin-left: 2em;
     margin-top: -1.8em;
     margin-bottom: 2em;
     padding-right: 14em;
   }
   footer .contenedor ul.redes {
-    margin-left: 1em;
+    margin-left: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1045,21 +1036,21 @@ footer .desarrollo a {
   footer .contenedor ul.redes li p {
     margin-bottom: 1rem;
     margin-top: -1.5em;
-    margin-left: 3em;
+    margin-left: 1em;
   }
 
   footer .contenedor ul.redes li a {
-    margin-right: 2em;
+    margin-right: 1em;
     text-decoration: none;
     color: #fff;
-    margin-left: 5px;
   }
   footer .desarrollo {
     text-align: center;
     color: #fff;
     background-color: #d35458;
-    height: 60px;
+    height: 100%;
     width: 100%;
+    padding-bottom: 0.5em;
   }
   footer .desarrollo p {
     padding-top: 1.5em;
@@ -1125,6 +1116,28 @@ footer .desarrollo a {
     top: 90%;
     z-index: 10;
   }
+  main section.first #info {
+    padding-top: 2em;
+  }
+  main section.first .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.first .contenedor .ft h5 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  main section.first .contenedor .trans h5 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  main section.first .contenedor .mercado h5 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
   main section.second {
     padding-top: 2em;
   }
@@ -1149,6 +1162,13 @@ footer .desarrollo a {
     font-size: 36px;
     line-height: 36px;
     margin-top: 370px;
+  }
+  main section.third .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
   main section.sixth {
     padding-top: 10em;
@@ -1176,6 +1196,9 @@ footer .desarrollo a {
     height: 300px;
   }
   footer {
+    background: #eda9a7;
+    margin-top: 85px;
+    height: 100%;
     overflow-x: hidden;
   }
   footer .contenedor {
@@ -1184,11 +1207,11 @@ footer .desarrollo a {
     grid-template-rows: 2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    padding-top: 30px;
+    padding-top: 85px;
     margin-bottom: 10px;
   }
   footer .contenedor ul.datos {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
   }
   footer .contenedor ul.datos li {
@@ -1196,19 +1219,20 @@ footer .desarrollo a {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
   }
   footer .contenedor ul.datos li p {
-    margin-left: 5px;
+    margin-left: 3em;
+    margin-top: -1.8em;
+    margin-bottom: 2em;
+    padding-right: 14em;
   }
   footer .contenedor ul.redes {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 1em;
-    padding-right: 1em;
+    align-items: flex-start;
+    margin-top: 9em;
   }
   footer .contenedor ul.redes li {
     margin-top: 20px;
@@ -1218,10 +1242,17 @@ footer .desarrollo a {
     line-height: 24px;
     list-style-type: none;
   }
+  footer .contenedor ul.redes li p {
+    margin-bottom: 1rem;
+    margin-top: -1.5em;
+    margin-left: 3em;
+  }
+
   footer .contenedor ul.redes li a {
     margin-right: 2em;
     text-decoration: none;
     color: #fff;
+    margin-left: 5px;
   }
   footer .desarrollo {
     text-align: center;
@@ -1306,12 +1337,14 @@ footer .desarrollo a {
   }
   main section.second .contenedor {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 9em;
     grid-row-gap: 0px;
     justify-content: center;
     justify-items: start;
+    margin-left: auto;
+    margin-right: auto;
   }
   main section.second .contenedor .caja {
     height: 350px;
@@ -1322,30 +1355,18 @@ footer .desarrollo a {
     margin-bottom: 70px;
   }
   main section.second .contenedor .deco {
-    background-image: url(../assets/media/tejo.jpg);
-    width: 418.68px;
+    width: 20em;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor .pared {
-    background-image: url(../assets/media/murete.jpg);
-    width: 418.68px;
+    width: 20em;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor .piso {
-    background-image: url(../assets/media/porfido.jpg);
-    width: 418.68px;
+    width: 20em;
     height: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     margin-top: 80px;
   }
   main section.second .contenedor p {
@@ -1366,16 +1387,32 @@ footer .desarrollo a {
   main section.second .contenedor .mini {
     background-color: rgba(255, 255, 255, 0.397);
     width: 290px;
-    height: 42px;
+    height: 40px;
     font-weight: 500;
     font-size: 24px;
     line-height: 22px;
     text-align: center;
-    margin-top: 13em;
-    margin-left: 35%;
+    margin-top: -1.5em;
+    margin-left: 4vw;
+    position: absolute;
   }
   main section.second .contenedor .mini span {
-    margin-top: 0.5em;
+    margin-top: 0.35em;
+    display: flex;
+    justify-content: center;
+  }
+  main section.second .contenedor .caja:hover .textos {
+    display: block;
+    margin-top: 5em;
+    width: 20em;
+  }
+  main section.third .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
   }
   main section.sixth {
     padding-top: 10em;
@@ -1414,11 +1451,11 @@ footer .desarrollo a {
     grid-template-rows: 2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    padding-top: 30px;
+    padding-top: 85px;
     margin-bottom: 10px;
   }
   footer .contenedor ul.datos {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
   }
   footer .contenedor ul.datos li {
@@ -1426,27 +1463,20 @@ footer .desarrollo a {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
   }
   footer .contenedor ul.datos li p {
-    margin-left: 5px;
-  }
-  footer .contenedor ul.datos .location {
-    list-style-image: url(../assets/icons/locat.svg);
-  }
-  footer .contenedor ul.datos .phone {
-    list-style-image: url(../assets/icons/telefono.svg);
-  }
-  footer .contenedor ul.datos .email {
-    list-style-image: url(../assets/icons/mail.svg);
+    margin-left: 3em;
+    margin-top: -1.8em;
+    margin-bottom: 2em;
+    padding-right: 14em;
   }
   footer .contenedor ul.redes {
-    margin-left: 2em;
+    margin-left: 1em;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 1em;
+    align-items: flex-start;
+    margin-top: 9em;
   }
   footer .contenedor ul.redes li {
     margin-top: 20px;
@@ -1456,10 +1486,17 @@ footer .desarrollo a {
     line-height: 24px;
     list-style-type: none;
   }
+  footer .contenedor ul.redes li p {
+    margin-bottom: 1rem;
+    margin-top: -1.5em;
+    margin-left: 3em;
+  }
+
   footer .contenedor ul.redes li a {
     margin-right: 2em;
     text-decoration: none;
     color: #fff;
+    margin-left: 5px;
   }
   footer .desarrollo {
     text-align: center;
