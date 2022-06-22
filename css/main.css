@@ -903,20 +903,23 @@ footer .desarrollo a {
     margin-left: 0;
   }
   main section.second .contenedor .mini {
-    background-color: rgba(255, 255, 255, 0.397);
-    width: 290px;
-    height: 42px;
+    background-color: rgb(255 255 255 / 76%);
+    width: 80%;
+    height: 40px;
     font-weight: 500;
     font-size: 24px;
     line-height: 22px;
     text-align: center;
-    margin-top: -1.7em;
-    margin-left: 15%;
+    margin-top: -1.5em;
+    margin-left: 11vw;
+    position: absolute;
   }
   main section.second .contenedor .mini span {
-    margin-top: 0.5em;
+    margin-top: 0.35em;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 1em;
+    letter-spacing: 1.5px;
   }
   main section.third {
     margin-top: 100px;
@@ -1220,6 +1223,25 @@ footer .desarrollo a {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
+  main section.second .contenedor .mini {
+    background-color: rgb(255 255 255 / 76%);
+    width: 80%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: -1.5em;
+    margin-left: 7vw;
+    position: absolute;
+  }
+  main section.second .contenedor .mini span {
+    margin-top: 0.35em;
+    display: flex;
+    justify-content: start;
+    padding-left: 1em;
+    letter-spacing: 1.5px;
+  }
   main section.sixth {
     padding-top: 10em;
     display: flex;
@@ -1435,21 +1457,23 @@ footer .desarrollo a {
     color: #9099cd;
   }
   main section.second .contenedor .mini {
-    background-color: rgba(255, 255, 255, 0.397);
-    width: 290px;
+    background-color: rgb(255 255 255 / 76%);
+    width: 80%;
     height: 40px;
     font-weight: 500;
     font-size: 24px;
     line-height: 22px;
     text-align: center;
     margin-top: -1.5em;
-    margin-left: 4vw;
+    margin-left: 7vw;
     position: absolute;
   }
   main section.second .contenedor .mini span {
     margin-top: 0.35em;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 1em;
+    letter-spacing: 1.5px;
   }
   main section.second .contenedor .caja:hover .textos {
     display: block;
