@@ -198,7 +198,7 @@ main section.first .contenedor .ft h5 {
   font-size: 32px;
   line-height: 32px;
   text-align: center;
-  width: 338px;
+  width: 290px;
   padding-top: 40px;
   padding-bottom: 195px;
 }
@@ -286,13 +286,13 @@ main section.second .contenedor .caja .textos p {
   line-height: 1.3;
 }
 main section.second .contenedor .caja .decoracion {
-  background-color: #f5a856af;
+  background-color: #f5a856be;
 }
 main section.second .contenedor .caja .pareds {
-  background-color: #ef81839c;
+  background-color: #ef8183bb;
 }
 main section.second .contenedor .caja .pisos {
-  background-color: #9099cda1;
+  background-color: #9099cdc5;
 }
 main section.second .contenedor .caja:hover .textos {
   display: block;
@@ -526,7 +526,7 @@ main section.carousel1 {
   margin-bottom: -100px;
 }
 main section.sixth {
-  padding-top: 10em;
+  padding-top: 15em;
   display: flex;
   flex-direction: column;
   justify-content: center;
